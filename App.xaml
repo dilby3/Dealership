@@ -1,0 +1,10 @@
+﻿<Application x:Class="Dealership.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Dealership"
+             xmlns:localViewModels="clr-namespace:Dealership.ViewModels"
+             StartupUri="Views.WndMain.xaml">
+    <Application.Resources>
+        <localViewModels:MainViewModel x:Key="MainVM"/>
+    </Application.Resources>
+</Application>
